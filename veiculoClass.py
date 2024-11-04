@@ -1,3 +1,5 @@
+#Crie um programa com a class carro que gere uma herança e exiba as informações
+
 class Carro:
     def __init__(self, marca, modelo, ano):
         self.marca = marca
