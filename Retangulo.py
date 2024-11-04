@@ -1,3 +1,5 @@
+#Crie um programa usando class que conte a area de um retângulo
+
 class Retangulo:
     def __init__(self, largura, altura):
         self.largura = largura
