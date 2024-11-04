@@ -1,5 +1,5 @@
 """ 
-Faça um script que leia três números inteiros e mostre o maior
+Faça um programa que leia três números inteiros e mostre o maior
 deles.
 """
 
