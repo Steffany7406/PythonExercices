@@ -1,5 +1,5 @@
 """ 
-Faça um script que leia um número e que defina se o número é par
+Faça um programa que leia um número e que defina se o número é par
 ou ímpar.
 """
 # Solicitando o número ao usuário
