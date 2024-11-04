@@ -1,5 +1,5 @@
 """
-Faça um script que verifique se uma letra digitada num campo de
+Faça um programa que verifique se uma letra digitada num campo de
 input é vogal ou consoante.
 """
 def verificar_letra():
