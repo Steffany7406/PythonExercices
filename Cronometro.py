@@ -9,7 +9,7 @@ class Cronometro:
 
     def __repr__(self):
         print(f"Hora: {self.horas:02d}:{self.minutos:02d}:{self.segundos:02d}")
-        time.sleep(0.1)
+        time.sleep(0.1) #O valor 0.1 é colocado para que ele funcione como cronometro, não relógio.
 
     def incremento(self):
         self.segundos += 1
