@@ -30,3 +30,24 @@ print("Localização dos Amigos:")
 print(f"Amigo = {friend1}")
 print(f"Amigo = {friend2}")
 print(f"Amigo = {friend3}")
+
+#####################################
+#Outra versão
+
+minha_localizacao = (-23.55052, -46.633308)
+
+friends = {
+  "Amigo 1": (40.712776, -74.005974),
+  "Amigo 2": (48.856613, 2.352222),
+  "Amigo 3": (-34.603722, -58.3815920),
+}
+
+for nome, coords in friends.items():
+  print(f"{nome}: {coords}")
+
+friend_distant = max(friends, key=lambda nome: harversine(minha_localizacao + friends[nome]))
+more_distance = harvesine(minha_localizacao, friends[friend_distant])
+
+##########################
+
+
